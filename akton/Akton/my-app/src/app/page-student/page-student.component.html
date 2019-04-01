@@ -1,0 +1,23 @@
+
+<nav class="navbar navbar-expand-md bg-light navbar-dark">
+
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="nav nav-tabs">
+          <li class="nav-item">
+              <a [routerLink]="[ '/page-student/profile-user' ]"  class="nav-link"  routerLinkActive="active"> הפרופיל שלי</a>
+          </li>
+      
+         <li class="nav-item">
+              <a [routerLink]="[ '/page-student/user-audio' ]"  class="nav-link"  routerLinkActive="active">השידורים שלי</a>
+          </li>
+          <li class="nav-item">
+              <a [routerLink]="['/page-student/all-audio']" routerLinkActive="active" class="nav-link" > השידורים כולם </a>
+          </li>
+         
+      </ul>
+      
+  </div> 
+</nav>
+<router-outlet></router-outlet>
+
+

@@ -1,0 +1,25 @@
+
+<nav class="navbar navbar-expand-md bg-light navbar-dark">
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a [routerLink]="[ '/Login-Manger' ]"  class="nav-link"  routerLinkActive="active">התחברות מנהל</a>
+            </li>
+        
+           <li class="nav-item">
+                <a [routerLink]="[ '/register-student' ]"  class="nav-link"  routerLinkActive="active">רישום תלמיד</a>
+            </li>
+            <li class="nav-item">
+                <a [routerLink]="['/Login-student']" routerLinkActive="active" class="nav-link" >התחברות תלמיד </a>
+            </li>
+          
+           
+           
+        </ul>
+        
+    </div> 
+  </nav>
+  
+<router-outlet></router-outlet>
+
